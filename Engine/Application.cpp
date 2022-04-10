@@ -28,7 +28,7 @@ void Application::Run(unsigned int width, unsigned int height, const char* title
 	const double maxPeriod = 1.0 / maxFPS;
 
 	double lastTime = 0.0;
-	float dt = 0;
+
 	while (b_Run)
 	{
 		double time = glfwGetTime();
